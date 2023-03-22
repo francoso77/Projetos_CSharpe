@@ -49,7 +49,6 @@ namespace Exercicios
 
             foreach (Employee empregado in Empregados)
             {
-                Console.WriteLine("teste");
                 Console.WriteLine(empregado);
             }
         }
