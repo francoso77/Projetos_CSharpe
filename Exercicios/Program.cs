@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Internal;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 
@@ -48,6 +49,7 @@ namespace Exercicios
 
             foreach (Employee empregado in Empregados)
             {
+                Console.WriteLine("teste");
                 Console.WriteLine(empregado);
             }
         }
