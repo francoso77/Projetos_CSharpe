@@ -1,0 +1,15 @@
+C:\temp\Projetos_CSharpe\Post\Posts\Posts\bin\Debug\net7.0\Posts.exe
+C:\temp\Projetos_CSharpe\Post\Posts\Posts\bin\Debug\net7.0\Posts.deps.json
+C:\temp\Projetos_CSharpe\Post\Posts\Posts\bin\Debug\net7.0\Posts.runtimeconfig.json
+C:\temp\Projetos_CSharpe\Post\Posts\Posts\bin\Debug\net7.0\Posts.dll
+C:\temp\Projetos_CSharpe\Post\Posts\Posts\bin\Debug\net7.0\Posts.pdb
+C:\temp\Projetos_CSharpe\Post\Posts\Posts\obj\Debug\net7.0\Posts.csproj.AssemblyReference.cache
+C:\temp\Projetos_CSharpe\Post\Posts\Posts\obj\Debug\net7.0\Posts.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\Projetos_CSharpe\Post\Posts\Posts\obj\Debug\net7.0\Posts.AssemblyInfoInputs.cache
+C:\temp\Projetos_CSharpe\Post\Posts\Posts\obj\Debug\net7.0\Posts.AssemblyInfo.cs
+C:\temp\Projetos_CSharpe\Post\Posts\Posts\obj\Debug\net7.0\Posts.csproj.CoreCompileInputs.cache
+C:\temp\Projetos_CSharpe\Post\Posts\Posts\obj\Debug\net7.0\Posts.dll
+C:\temp\Projetos_CSharpe\Post\Posts\Posts\obj\Debug\net7.0\refint\Posts.dll
+C:\temp\Projetos_CSharpe\Post\Posts\Posts\obj\Debug\net7.0\Posts.pdb
+C:\temp\Projetos_CSharpe\Post\Posts\Posts\obj\Debug\net7.0\Posts.genruntimeconfig.cache
+C:\temp\Projetos_CSharpe\Post\Posts\Posts\obj\Debug\net7.0\ref\Posts.dll
