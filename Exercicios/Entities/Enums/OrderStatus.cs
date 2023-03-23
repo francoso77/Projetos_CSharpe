@@ -1,4 +1,4 @@
-namespace Exercicios.Entities.Enums
+namespace Course.Entities.Enums
 {
     public enum OrderStatus : int
     {

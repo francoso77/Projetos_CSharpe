@@ -1,8 +1,8 @@
 using System.Reflection.Metadata;
 using System;
-using Exercicios.Entities.Enums;
+using Course.Entities.Enums;
 
-namespace Exercicios.Entities
+namespace Course.Entities
 {
     public class Order
     {

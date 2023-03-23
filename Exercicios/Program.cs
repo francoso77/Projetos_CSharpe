@@ -1,10 +1,10 @@
 ﻿using System.Runtime.CompilerServices;
 using System;
 using System.Globalization;
-using Exercicios.Entities;
-using Exercicios.Entities.Enums;
+using Course.Entities;
+using Course.Entities.Enums;
 
-namespace Exercicios
+namespace Course
 {
     class Program
     {

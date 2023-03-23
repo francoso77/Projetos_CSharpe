@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\temp\\Projetos_CSharpe\\Exercicios\\Exercicios.csproj": {}
+    "C:\\temp\\Projetos_CSharpe\\Exercicios\\Curs.csproj": {}
   },
   "projects": {
-    "C:\\temp\\Projetos_CSharpe\\Exercicios\\Exercicios.csproj": {
+    "C:\\temp\\Projetos_CSharpe\\Exercicios\\Curs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\temp\\Projetos_CSharpe\\Exercicios\\Exercicios.csproj",
-        "projectName": "Exercicios",
-        "projectPath": "C:\\temp\\Projetos_CSharpe\\Exercicios\\Exercicios.csproj",
+        "projectUniqueName": "C:\\temp\\Projetos_CSharpe\\Exercicios\\Curs.csproj",
+        "projectName": "Curs",
+        "projectPath": "C:\\temp\\Projetos_CSharpe\\Exercicios\\Curs.csproj",
         "packagesPath": "C:\\Users\\frank\\.nuget\\packages\\",
         "outputPath": "C:\\temp\\Projetos_CSharpe\\Exercicios\\obj\\",
         "projectStyle": "PackageReference",
