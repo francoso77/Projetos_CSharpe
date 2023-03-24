@@ -1,0 +1,15 @@
+C:\temp\Projetos_CSharpe\Account\Account\Account\bin\Debug\net7.0\Accounts.exe
+C:\temp\Projetos_CSharpe\Account\Account\Account\bin\Debug\net7.0\Accounts.deps.json
+C:\temp\Projetos_CSharpe\Account\Account\Account\bin\Debug\net7.0\Accounts.runtimeconfig.json
+C:\temp\Projetos_CSharpe\Account\Account\Account\bin\Debug\net7.0\Accounts.dll
+C:\temp\Projetos_CSharpe\Account\Account\Account\bin\Debug\net7.0\Accounts.pdb
+C:\temp\Projetos_CSharpe\Account\Account\Account\obj\Debug\net7.0\Accounts.csproj.AssemblyReference.cache
+C:\temp\Projetos_CSharpe\Account\Account\Account\obj\Debug\net7.0\Accounts.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\Projetos_CSharpe\Account\Account\Account\obj\Debug\net7.0\Accounts.AssemblyInfoInputs.cache
+C:\temp\Projetos_CSharpe\Account\Account\Account\obj\Debug\net7.0\Accounts.AssemblyInfo.cs
+C:\temp\Projetos_CSharpe\Account\Account\Account\obj\Debug\net7.0\Accounts.csproj.CoreCompileInputs.cache
+C:\temp\Projetos_CSharpe\Account\Account\Account\obj\Debug\net7.0\Accounts.dll
+C:\temp\Projetos_CSharpe\Account\Account\Account\obj\Debug\net7.0\refint\Accounts.dll
+C:\temp\Projetos_CSharpe\Account\Account\Account\obj\Debug\net7.0\Accounts.pdb
+C:\temp\Projetos_CSharpe\Account\Account\Account\obj\Debug\net7.0\Accounts.genruntimeconfig.cache
+C:\temp\Projetos_CSharpe\Account\Account\Account\obj\Debug\net7.0\ref\Accounts.dll
