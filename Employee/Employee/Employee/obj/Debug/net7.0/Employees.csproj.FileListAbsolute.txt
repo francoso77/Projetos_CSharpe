@@ -1,0 +1,15 @@
+C:\temp\ProjetosC#\Projetos_CSharpe\Employee\Employee\Employee\obj\Debug\net7.0\Employees.csproj.AssemblyReference.cache
+C:\temp\ProjetosC#\Projetos_CSharpe\Employee\Employee\Employee\obj\Debug\net7.0\Employees.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\ProjetosC#\Projetos_CSharpe\Employee\Employee\Employee\obj\Debug\net7.0\Employees.AssemblyInfoInputs.cache
+C:\temp\ProjetosC#\Projetos_CSharpe\Employee\Employee\Employee\obj\Debug\net7.0\Employees.AssemblyInfo.cs
+C:\temp\ProjetosC#\Projetos_CSharpe\Employee\Employee\Employee\obj\Debug\net7.0\Employees.csproj.CoreCompileInputs.cache
+C:\temp\ProjetosC#\Projetos_CSharpe\Employee\Employee\Employee\bin\Debug\net7.0\Employees.exe
+C:\temp\ProjetosC#\Projetos_CSharpe\Employee\Employee\Employee\bin\Debug\net7.0\Employees.deps.json
+C:\temp\ProjetosC#\Projetos_CSharpe\Employee\Employee\Employee\bin\Debug\net7.0\Employees.runtimeconfig.json
+C:\temp\ProjetosC#\Projetos_CSharpe\Employee\Employee\Employee\bin\Debug\net7.0\Employees.dll
+C:\temp\ProjetosC#\Projetos_CSharpe\Employee\Employee\Employee\bin\Debug\net7.0\Employees.pdb
+C:\temp\ProjetosC#\Projetos_CSharpe\Employee\Employee\Employee\obj\Debug\net7.0\Employees.dll
+C:\temp\ProjetosC#\Projetos_CSharpe\Employee\Employee\Employee\obj\Debug\net7.0\refint\Employees.dll
+C:\temp\ProjetosC#\Projetos_CSharpe\Employee\Employee\Employee\obj\Debug\net7.0\Employees.pdb
+C:\temp\ProjetosC#\Projetos_CSharpe\Employee\Employee\Employee\obj\Debug\net7.0\Employees.genruntimeconfig.cache
+C:\temp\ProjetosC#\Projetos_CSharpe\Employee\Employee\Employee\obj\Debug\net7.0\ref\Employees.dll
