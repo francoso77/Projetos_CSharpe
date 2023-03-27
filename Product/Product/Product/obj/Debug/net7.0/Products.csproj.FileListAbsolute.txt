@@ -1,0 +1,15 @@
+C:\temp\Projetos_CSharpe\Product\Product\Product\obj\Debug\net7.0\Products.csproj.AssemblyReference.cache
+C:\temp\Projetos_CSharpe\Product\Product\Product\obj\Debug\net7.0\Products.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\Projetos_CSharpe\Product\Product\Product\obj\Debug\net7.0\Products.AssemblyInfoInputs.cache
+C:\temp\Projetos_CSharpe\Product\Product\Product\obj\Debug\net7.0\Products.AssemblyInfo.cs
+C:\temp\Projetos_CSharpe\Product\Product\Product\obj\Debug\net7.0\Products.csproj.CoreCompileInputs.cache
+C:\temp\Projetos_CSharpe\Product\Product\Product\bin\Debug\net7.0\Products.exe
+C:\temp\Projetos_CSharpe\Product\Product\Product\bin\Debug\net7.0\Products.deps.json
+C:\temp\Projetos_CSharpe\Product\Product\Product\bin\Debug\net7.0\Products.runtimeconfig.json
+C:\temp\Projetos_CSharpe\Product\Product\Product\bin\Debug\net7.0\Products.dll
+C:\temp\Projetos_CSharpe\Product\Product\Product\bin\Debug\net7.0\Products.pdb
+C:\temp\Projetos_CSharpe\Product\Product\Product\obj\Debug\net7.0\Products.dll
+C:\temp\Projetos_CSharpe\Product\Product\Product\obj\Debug\net7.0\refint\Products.dll
+C:\temp\Projetos_CSharpe\Product\Product\Product\obj\Debug\net7.0\Products.pdb
+C:\temp\Projetos_CSharpe\Product\Product\Product\obj\Debug\net7.0\Products.genruntimeconfig.cache
+C:\temp\Projetos_CSharpe\Product\Product\Product\obj\Debug\net7.0\ref\Products.dll

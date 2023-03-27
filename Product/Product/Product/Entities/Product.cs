@@ -1,6 +1,4 @@
-using System;
 using System.Globalization;
-using System.Text;
 
 namespace Products.Entities
 {
@@ -17,9 +15,10 @@ namespace Products.Entities
         }        
 
         public virtual string PriceTag(){
-            StringBuilder sb = new StringBuilder();
-            sb.AppendLine(Name + " $ " + Price);
-            return sb;
+            
+            return Name
+                + " $ "
+                + Price.ToString("F2", CultureInfo.InvariantCulture);
         }
     }
 }

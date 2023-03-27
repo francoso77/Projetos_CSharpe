@@ -1,6 +1,5 @@
-using System;
-using System.Collections.Generic;
-
+using System.Globalization;
+using System.Text;
 namespace Products.Entities
 {
     public class ImportedProduct : Product
@@ -20,9 +19,13 @@ namespace Products.Entities
         }
 
         public override string PriceTag(){
-            StringBuilder sb = new StringBuilder();
-            sb.AppendLine(Name + " $ " + TotalPrice() + "(Customs fee: $)" + CustomsFee);
-            return sb;
+    
+            return Name
+                + " $ "
+                + TotalPrice().ToString("F2", CultureInfo.InvariantCulture)
+                + " (Customs fee: $ "
+                + CustomsFee.ToString("F2", CultureInfo.InvariantCulture)
+                + ")";
         }
     }
 }
