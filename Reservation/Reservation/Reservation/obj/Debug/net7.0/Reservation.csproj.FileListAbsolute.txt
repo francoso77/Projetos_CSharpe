@@ -1,0 +1,15 @@
+C:\temp\Projetos_CSharpe\Reservation\Reservation\Reservation\bin\Debug\net7.0\Reservation.exe
+C:\temp\Projetos_CSharpe\Reservation\Reservation\Reservation\bin\Debug\net7.0\Reservation.deps.json
+C:\temp\Projetos_CSharpe\Reservation\Reservation\Reservation\bin\Debug\net7.0\Reservation.runtimeconfig.json
+C:\temp\Projetos_CSharpe\Reservation\Reservation\Reservation\bin\Debug\net7.0\Reservation.dll
+C:\temp\Projetos_CSharpe\Reservation\Reservation\Reservation\bin\Debug\net7.0\Reservation.pdb
+C:\temp\Projetos_CSharpe\Reservation\Reservation\Reservation\obj\Debug\net7.0\Reservation.csproj.AssemblyReference.cache
+C:\temp\Projetos_CSharpe\Reservation\Reservation\Reservation\obj\Debug\net7.0\Reservation.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\Projetos_CSharpe\Reservation\Reservation\Reservation\obj\Debug\net7.0\Reservation.AssemblyInfoInputs.cache
+C:\temp\Projetos_CSharpe\Reservation\Reservation\Reservation\obj\Debug\net7.0\Reservation.AssemblyInfo.cs
+C:\temp\Projetos_CSharpe\Reservation\Reservation\Reservation\obj\Debug\net7.0\Reservation.csproj.CoreCompileInputs.cache
+C:\temp\Projetos_CSharpe\Reservation\Reservation\Reservation\obj\Debug\net7.0\Reservation.dll
+C:\temp\Projetos_CSharpe\Reservation\Reservation\Reservation\obj\Debug\net7.0\refint\Reservation.dll
+C:\temp\Projetos_CSharpe\Reservation\Reservation\Reservation\obj\Debug\net7.0\Reservation.pdb
+C:\temp\Projetos_CSharpe\Reservation\Reservation\Reservation\obj\Debug\net7.0\Reservation.genruntimeconfig.cache
+C:\temp\Projetos_CSharpe\Reservation\Reservation\Reservation\obj\Debug\net7.0\ref\Reservation.dll
