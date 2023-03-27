@@ -19,7 +19,8 @@
         }
 
         //override sobreposição de função de outa classe
-        public override void Withdraw(double amount)
+        // podemos selar metodos tb... mas tem q ser metodos sobrepostos
+        public sealed override void Withdraw(double amount)
         {
             //usand base - vc executa a função original e ainda pode fazer novas alterações 
             base.Withdraw(amount);
