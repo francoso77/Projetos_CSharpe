@@ -1,0 +1,15 @@
+C:\temp\Projetos_CSharpe\TaxPayer\TaxPayer\TaxPayer\bin\Debug\net7.0\TaxPayer.exe
+C:\temp\Projetos_CSharpe\TaxPayer\TaxPayer\TaxPayer\bin\Debug\net7.0\TaxPayer.deps.json
+C:\temp\Projetos_CSharpe\TaxPayer\TaxPayer\TaxPayer\bin\Debug\net7.0\TaxPayer.runtimeconfig.json
+C:\temp\Projetos_CSharpe\TaxPayer\TaxPayer\TaxPayer\bin\Debug\net7.0\TaxPayer.dll
+C:\temp\Projetos_CSharpe\TaxPayer\TaxPayer\TaxPayer\bin\Debug\net7.0\TaxPayer.pdb
+C:\temp\Projetos_CSharpe\TaxPayer\TaxPayer\TaxPayer\obj\Debug\net7.0\TaxPayer.csproj.AssemblyReference.cache
+C:\temp\Projetos_CSharpe\TaxPayer\TaxPayer\TaxPayer\obj\Debug\net7.0\TaxPayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\Projetos_CSharpe\TaxPayer\TaxPayer\TaxPayer\obj\Debug\net7.0\TaxPayer.AssemblyInfoInputs.cache
+C:\temp\Projetos_CSharpe\TaxPayer\TaxPayer\TaxPayer\obj\Debug\net7.0\TaxPayer.AssemblyInfo.cs
+C:\temp\Projetos_CSharpe\TaxPayer\TaxPayer\TaxPayer\obj\Debug\net7.0\TaxPayer.csproj.CoreCompileInputs.cache
+C:\temp\Projetos_CSharpe\TaxPayer\TaxPayer\TaxPayer\obj\Debug\net7.0\TaxPayer.dll
+C:\temp\Projetos_CSharpe\TaxPayer\TaxPayer\TaxPayer\obj\Debug\net7.0\refint\TaxPayer.dll
+C:\temp\Projetos_CSharpe\TaxPayer\TaxPayer\TaxPayer\obj\Debug\net7.0\TaxPayer.pdb
+C:\temp\Projetos_CSharpe\TaxPayer\TaxPayer\TaxPayer\obj\Debug\net7.0\TaxPayer.genruntimeconfig.cache
+C:\temp\Projetos_CSharpe\TaxPayer\TaxPayer\TaxPayer\obj\Debug\net7.0\ref\TaxPayer.dll
