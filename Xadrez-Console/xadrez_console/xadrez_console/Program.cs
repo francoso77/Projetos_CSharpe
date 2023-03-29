@@ -1,4 +1,8 @@
-﻿using tabuleiro;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.Reflection.Metadata;
+using System;
+using tabuleiro;
+
 
 namespace xadrez_console
 {
@@ -6,8 +10,10 @@ namespace xadrez_console
     {
         static void Main(string[] args)
         {
-            posicao p = new posicao(3, 4);
-            Console.WriteLine(p);
+            Tabuleiro tab = new Tabuleiro(8, 8);
+            
+            Tela.imprimirTabuleiro(tab);
+
         }
     }
 }
