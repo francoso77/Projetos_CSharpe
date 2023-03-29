@@ -1,8 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.Reflection.Metadata;
-using System;
-using tabuleiro;
-
+﻿using tabuleiro;
+using xadrez;
 
 namespace xadrez_console
 {
@@ -10,10 +7,29 @@ namespace xadrez_console
     {
         static void Main(string[] args)
         {
-            Tabuleiro tab = new Tabuleiro(8, 8);
             
-            Tela.imprimirTabuleiro(tab);
+            try
+            {
+                PartidaDeXadrez partida = new PartidaDeXadrez();
+                
+                while (!partida.Terminada)
+                {
+                    Console.Clear();
+                    Tela.imprimirTabuleiro(partida.Tab);
 
+                    Console.WriteLine();
+                    Console.Write("Origem: ");
+                    Posicao origem = Tela.lerPosicaoXadrez().ToPosicao();
+                    Console.Write("Destino: ");
+                    Posicao destino = Tela.lerPosicaoXadrez().ToPosicao();
+                    partida.executaMovimento(origem, destino);
+
+                }
+            }
+            catch (TabuleiroException e)
+            {
+                Console.WriteLine("Error na movimentação: " + e.Message);
+            }
         }
     }
 }
