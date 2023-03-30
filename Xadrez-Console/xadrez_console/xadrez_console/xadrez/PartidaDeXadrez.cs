@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Net.Http.Headers;
 using tabuleiro;
 
 namespace xadrez
@@ -150,6 +151,28 @@ namespace xadrez
             {
                 Capturadas.Add(pecaCapturada);  
             }
+            // #jogadaespecial roque pequeno
+
+            if (p is Rei && destino.Coluna == origem.Coluna + 2)
+            {
+                Posicao origemT = new Posicao(origem.Linha, origem.Coluna + 3);
+                Posicao destinoT = new Posicao(origem.Linha, origem.Coluna + 1);
+                Peca T = Tab.retirarPeca(origemT);
+                T.incrementarQteMovimentos();
+                Tab.colocarPeca(T, destinoT);
+            }
+           
+            // #jogadaespecial roque grande
+
+            if (p is Rei && destino.Coluna == origem.Coluna - 2)
+            {
+                Posicao origemT = new Posicao(origem.Linha, origem.Coluna - 4);
+                Posicao destinoT = new Posicao(origem.Linha, origem.Coluna - 1);
+                Peca T = Tab.retirarPeca(origemT);
+                T.incrementarQteMovimentos();
+                Tab.colocarPeca(T, destinoT);
+            }
+
             return pecaCapturada;
         }
 
@@ -227,7 +250,7 @@ namespace xadrez
             colocarNovaPeca('b', 1, new Cavalo(Tab, JogadorAtual));
             colocarNovaPeca('c', 1, new Bispo(Tab, JogadorAtual));
             colocarNovaPeca('d', 1, new Dama(Tab, JogadorAtual));
-            colocarNovaPeca('e', 1, new Rei(Tab, JogadorAtual));
+            colocarNovaPeca('e', 1, new Rei(Tab, JogadorAtual,));
             colocarNovaPeca('f', 1, new Bispo(Tab, JogadorAtual));
             colocarNovaPeca('g', 1, new Cavalo(Tab, JogadorAtual));
             colocarNovaPeca('h', 1, new Torre(Tab, JogadorAtual));
