@@ -2,9 +2,6 @@
 using System;
 using System.IO;
 using Course.Entities;
-{
-    
-}
 
 namespace Course
 {
@@ -21,9 +18,9 @@ namespace Course
 
                 string sourceFolderPath = Path.GetDirectoryName(sourceFilePath);
                 string targetFolderPath = sourceFolderPath + @"\out";
-                string targetFilePath = targetFolderPath + @"\summaty.csv";
+                string targetFilePath = targetFolderPath + @"\summary.csv";
 
-                Directory.CreateDirectory(targetFilePath);
+                Directory.CreateDirectory(targetFolderPath);
 
                 using (StreamWriter sw = File.AppendText(targetFilePath))
                 {
