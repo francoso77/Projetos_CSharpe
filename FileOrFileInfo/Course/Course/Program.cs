@@ -1,7 +1,10 @@
-﻿using System;
+﻿using System.Globalization;
+using System;
 using System.IO;
-using System.Collections.Generic;
-
+using Course.Entities;
+{
+    
+}
 
 namespace Course
 {
@@ -9,24 +12,34 @@ namespace Course
     {
         static void Main(string[] args)
         {
-                      
-            string sourceFile = @"c:\temp\myfolder\file1.csv";
-            string lines = "Frank, Alves, 1977";
-            string[] palavras;
-
-            Console.WriteLine(lines.Substring(0,2));
-            palavras = lines.Split(',');
-            foreach (string palavra in palavras) { Console.WriteLine(palavra); }
+            Console.Write("Enter file full path: ");
+            string sourceFilePath = Console.ReadLine();
 
             try
             {
-                using (StreamReader sr = File.OpenText(sourceFile))
+                string [] lines = File.ReadAllLines(sourceFilePath);
+
+                string sourceFolderPath = Path.GetDirectoryName(sourceFilePath);
+                string targetFolderPath = sourceFolderPath + @"\out";
+                string targetFilePath = targetFolderPath + @"\summaty.csv";
+
+                Directory.CreateDirectory(targetFilePath);
+
+                using (StreamWriter sw = File.AppendText(targetFilePath))
                 {
-                    /*while (!sr.EndOfStream)
+                    
+                    foreach (string line in lines)
                     {
-                        lines. sr.ReadLine();
-                        Console.WriteLine(line);
-                    }*/
+                        string [] fields = line.Split(',');
+
+                        string name = fields[0];
+                        double price = double.Parse(fields[1],CultureInfo.InvariantCulture);
+                        int quantity = int.Parse(fields[2]);
+
+                        Products product = new Products(name, price, quantity);
+
+                        sw.WriteLine(product.Name + "," + product.Total().ToString("F2", CultureInfo.InvariantCulture));
+                    }
                 }
             }
             catch (IOException e)
@@ -38,7 +51,6 @@ namespace Course
             {
                 Console.WriteLine("Operação finalizada!");
             }
-
         }
     }
 }
