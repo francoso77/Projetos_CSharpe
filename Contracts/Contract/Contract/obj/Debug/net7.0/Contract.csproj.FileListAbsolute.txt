@@ -1,0 +1,15 @@
+C:\temp\Projetos_CSharpe\Contracts\Contract\Contract\bin\Debug\net7.0\Contract.exe
+C:\temp\Projetos_CSharpe\Contracts\Contract\Contract\bin\Debug\net7.0\Contract.deps.json
+C:\temp\Projetos_CSharpe\Contracts\Contract\Contract\bin\Debug\net7.0\Contract.runtimeconfig.json
+C:\temp\Projetos_CSharpe\Contracts\Contract\Contract\bin\Debug\net7.0\Contract.dll
+C:\temp\Projetos_CSharpe\Contracts\Contract\Contract\bin\Debug\net7.0\Contract.pdb
+C:\temp\Projetos_CSharpe\Contracts\Contract\Contract\obj\Debug\net7.0\Contract.csproj.AssemblyReference.cache
+C:\temp\Projetos_CSharpe\Contracts\Contract\Contract\obj\Debug\net7.0\Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\Projetos_CSharpe\Contracts\Contract\Contract\obj\Debug\net7.0\Contract.AssemblyInfoInputs.cache
+C:\temp\Projetos_CSharpe\Contracts\Contract\Contract\obj\Debug\net7.0\Contract.AssemblyInfo.cs
+C:\temp\Projetos_CSharpe\Contracts\Contract\Contract\obj\Debug\net7.0\Contract.csproj.CoreCompileInputs.cache
+C:\temp\Projetos_CSharpe\Contracts\Contract\Contract\obj\Debug\net7.0\Contract.dll
+C:\temp\Projetos_CSharpe\Contracts\Contract\Contract\obj\Debug\net7.0\refint\Contract.dll
+C:\temp\Projetos_CSharpe\Contracts\Contract\Contract\obj\Debug\net7.0\Contract.pdb
+C:\temp\Projetos_CSharpe\Contracts\Contract\Contract\obj\Debug\net7.0\Contract.genruntimeconfig.cache
+C:\temp\Projetos_CSharpe\Contracts\Contract\Contract\obj\Debug\net7.0\ref\Contract.dll
