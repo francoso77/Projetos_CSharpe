@@ -3,7 +3,7 @@ using System;
 
 namespace Course.Entities
 {
-    public class CarRental
+    class CarRental
     {
         public DateTime Start { get; set; } 
         public DateTime Finish { get; set; }

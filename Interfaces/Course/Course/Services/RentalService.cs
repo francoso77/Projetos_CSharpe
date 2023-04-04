@@ -4,22 +4,26 @@ using Course.Entities;
 
 namespace Course.Services
 {
-    public class RentalServices
+    class RentalService
     {
+            // o private set é para só podermos alterar esses dados aqui dentro dessa classe
           public double PricePerHour { get; private set; }      
           public double PricePerDay { get; private set; }
 
-          private BrazilTaxService _brazilTaxService = new BrazilTaxService();
+          //criando dependÊncia de uma serviço 
+        //private BrazilTaxService _brazilTaxService = new BrazilTaxService();  
+        private ITaxService _taxService;
 
-          public RentalServices(double pricePerHour, double pricePerDay)
+          public RentalService(double pricePerHour, double pricePerDay, ITaxService taxService)
           {
             PricePerHour = pricePerHour;
             PricePerDay = pricePerDay;
+            _taxService = taxService;
           }
 
           public void ProcessInvoice(CarRental carRental)
           {
-               TimeSpan duration =  CarRental.Finish.Substract(CarRental.Start);
+               TimeSpan duration =  carRental.Finish.Subtract(carRental.Start);
 
                double basicPayment = 0.0;
                if(duration.TotalHours <= 12.0)
@@ -31,9 +35,9 @@ namespace Course.Services
                     basicPayment = PricePerDay * Math.Ceiling(duration.TotalDays);
                }
 
-               double tax = _brazilTaxService.Tax(basicPayment);
+               double tax = _taxService.Tax(basicPayment);
 
-               CarRental.Invoice = new Invoice(basicPayment, tax);
+               carRental.Invoice = new Invoice(basicPayment, tax);
 
           }
     }

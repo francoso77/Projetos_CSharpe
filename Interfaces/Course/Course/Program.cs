@@ -26,10 +26,11 @@ namespace Course
 
             CarRental carRental = new CarRental(start, finish, new Vehicle(model));
 
-            RentalServices rentalServices = new RentalServices(hour, day);
+            RentalService rentalServices = new RentalService(hour, day, new BrazilTaxService());
 
             rentalServices.ProcessInvoice(carRental);
 
+            Console.WriteLine();
             Console.WriteLine("INVOICE: ");
             Console.WriteLine(carRental.Invoice);
         }
