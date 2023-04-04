@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\temp\\ProjetosC#\\Projetos_CSharpe\\FileOrFileInfo\\Course\\Course\\Course.csproj",
+      "projectUniqueName": "C:\\temp\\ProjetosC#\\Projetos_CSharpe\\Interfaces\\Course\\Course\\Course.csproj",
       "projectName": "Course",
-      "projectPath": "C:\\temp\\ProjetosC#\\Projetos_CSharpe\\FileOrFileInfo\\Course\\Course\\Course.csproj",
+      "projectPath": "C:\\temp\\ProjetosC#\\Projetos_CSharpe\\Interfaces\\Course\\Course\\Course.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\temp\\ProjetosC#\\Projetos_CSharpe\\FileOrFileInfo\\Course\\Course\\obj\\",
+      "outputPath": "C:\\temp\\ProjetosC#\\Projetos_CSharpe\\Interfaces\\Course\\Course\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

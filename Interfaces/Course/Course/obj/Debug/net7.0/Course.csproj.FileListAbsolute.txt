@@ -28,3 +28,11 @@ C:\temp\ProjetosC#\Projetos_CSharpe\FileOrFileInfo\Course\Course\obj\Debug\net7.
 C:\temp\ProjetosC#\Projetos_CSharpe\FileOrFileInfo\Course\Course\obj\Debug\net7.0\Course.pdb
 C:\temp\ProjetosC#\Projetos_CSharpe\FileOrFileInfo\Course\Course\obj\Debug\net7.0\Course.genruntimeconfig.cache
 C:\temp\ProjetosC#\Projetos_CSharpe\FileOrFileInfo\Course\Course\obj\Debug\net7.0\ref\Course.dll
+C:\temp\ProjetosC#\Projetos_CSharpe\Interfaces\Course\Course\obj\Debug\net7.0\Course.csproj.AssemblyReference.cache
+C:\temp\ProjetosC#\Projetos_CSharpe\Interfaces\Course\Course\obj\Debug\net7.0\Course.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\ProjetosC#\Projetos_CSharpe\Interfaces\Course\Course\obj\Debug\net7.0\Course.AssemblyInfoInputs.cache
+C:\temp\ProjetosC#\Projetos_CSharpe\Interfaces\Course\Course\obj\Debug\net7.0\Course.AssemblyInfo.cs
+C:\temp\ProjetosC#\Projetos_CSharpe\Interfaces\Course\Course\obj\Debug\net7.0\Course.csproj.CoreCompileInputs.cache
+C:\temp\ProjetosC#\Projetos_CSharpe\Interfaces\Course\Course\obj\Debug\net7.0\Course.dll
+C:\temp\ProjetosC#\Projetos_CSharpe\Interfaces\Course\Course\obj\Debug\net7.0\refint\Course.dll
+C:\temp\ProjetosC#\Projetos_CSharpe\Interfaces\Course\Course\obj\Debug\net7.0\Course.pdb
