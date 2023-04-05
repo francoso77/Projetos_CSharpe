@@ -1,0 +1,15 @@
+C:\temp\Projetos_CSharpe\ShapeComInterface\ShapeComInterface\ShapeComInterface\bin\Debug\net7.0\ShapeComInterface.exe
+C:\temp\Projetos_CSharpe\ShapeComInterface\ShapeComInterface\ShapeComInterface\bin\Debug\net7.0\ShapeComInterface.deps.json
+C:\temp\Projetos_CSharpe\ShapeComInterface\ShapeComInterface\ShapeComInterface\bin\Debug\net7.0\ShapeComInterface.runtimeconfig.json
+C:\temp\Projetos_CSharpe\ShapeComInterface\ShapeComInterface\ShapeComInterface\bin\Debug\net7.0\ShapeComInterface.dll
+C:\temp\Projetos_CSharpe\ShapeComInterface\ShapeComInterface\ShapeComInterface\bin\Debug\net7.0\ShapeComInterface.pdb
+C:\temp\Projetos_CSharpe\ShapeComInterface\ShapeComInterface\ShapeComInterface\obj\Debug\net7.0\ShapeComInterface.csproj.AssemblyReference.cache
+C:\temp\Projetos_CSharpe\ShapeComInterface\ShapeComInterface\ShapeComInterface\obj\Debug\net7.0\ShapeComInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\Projetos_CSharpe\ShapeComInterface\ShapeComInterface\ShapeComInterface\obj\Debug\net7.0\ShapeComInterface.AssemblyInfoInputs.cache
+C:\temp\Projetos_CSharpe\ShapeComInterface\ShapeComInterface\ShapeComInterface\obj\Debug\net7.0\ShapeComInterface.AssemblyInfo.cs
+C:\temp\Projetos_CSharpe\ShapeComInterface\ShapeComInterface\ShapeComInterface\obj\Debug\net7.0\ShapeComInterface.csproj.CoreCompileInputs.cache
+C:\temp\Projetos_CSharpe\ShapeComInterface\ShapeComInterface\ShapeComInterface\obj\Debug\net7.0\ShapeComInterface.dll
+C:\temp\Projetos_CSharpe\ShapeComInterface\ShapeComInterface\ShapeComInterface\obj\Debug\net7.0\refint\ShapeComInterface.dll
+C:\temp\Projetos_CSharpe\ShapeComInterface\ShapeComInterface\ShapeComInterface\obj\Debug\net7.0\ShapeComInterface.pdb
+C:\temp\Projetos_CSharpe\ShapeComInterface\ShapeComInterface\ShapeComInterface\obj\Debug\net7.0\ShapeComInterface.genruntimeconfig.cache
+C:\temp\Projetos_CSharpe\ShapeComInterface\ShapeComInterface\ShapeComInterface\obj\Debug\net7.0\ref\ShapeComInterface.dll

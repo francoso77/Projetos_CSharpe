@@ -1,0 +1,15 @@
+C:\temp\Projetos_CSharpe\ShapeSemInterface\ShapeSemInterface\ShapeSemInterface\bin\Debug\net7.0\ShapeSemInterface.exe
+C:\temp\Projetos_CSharpe\ShapeSemInterface\ShapeSemInterface\ShapeSemInterface\bin\Debug\net7.0\ShapeSemInterface.deps.json
+C:\temp\Projetos_CSharpe\ShapeSemInterface\ShapeSemInterface\ShapeSemInterface\bin\Debug\net7.0\ShapeSemInterface.runtimeconfig.json
+C:\temp\Projetos_CSharpe\ShapeSemInterface\ShapeSemInterface\ShapeSemInterface\bin\Debug\net7.0\ShapeSemInterface.dll
+C:\temp\Projetos_CSharpe\ShapeSemInterface\ShapeSemInterface\ShapeSemInterface\bin\Debug\net7.0\ShapeSemInterface.pdb
+C:\temp\Projetos_CSharpe\ShapeSemInterface\ShapeSemInterface\ShapeSemInterface\obj\Debug\net7.0\ShapeSemInterface.csproj.AssemblyReference.cache
+C:\temp\Projetos_CSharpe\ShapeSemInterface\ShapeSemInterface\ShapeSemInterface\obj\Debug\net7.0\ShapeSemInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\Projetos_CSharpe\ShapeSemInterface\ShapeSemInterface\ShapeSemInterface\obj\Debug\net7.0\ShapeSemInterface.AssemblyInfoInputs.cache
+C:\temp\Projetos_CSharpe\ShapeSemInterface\ShapeSemInterface\ShapeSemInterface\obj\Debug\net7.0\ShapeSemInterface.AssemblyInfo.cs
+C:\temp\Projetos_CSharpe\ShapeSemInterface\ShapeSemInterface\ShapeSemInterface\obj\Debug\net7.0\ShapeSemInterface.csproj.CoreCompileInputs.cache
+C:\temp\Projetos_CSharpe\ShapeSemInterface\ShapeSemInterface\ShapeSemInterface\obj\Debug\net7.0\ShapeSemInterface.dll
+C:\temp\Projetos_CSharpe\ShapeSemInterface\ShapeSemInterface\ShapeSemInterface\obj\Debug\net7.0\refint\ShapeSemInterface.dll
+C:\temp\Projetos_CSharpe\ShapeSemInterface\ShapeSemInterface\ShapeSemInterface\obj\Debug\net7.0\ShapeSemInterface.pdb
+C:\temp\Projetos_CSharpe\ShapeSemInterface\ShapeSemInterface\ShapeSemInterface\obj\Debug\net7.0\ShapeSemInterface.genruntimeconfig.cache
+C:\temp\Projetos_CSharpe\ShapeSemInterface\ShapeSemInterface\ShapeSemInterface\obj\Debug\net7.0\ref\ShapeSemInterface.dll

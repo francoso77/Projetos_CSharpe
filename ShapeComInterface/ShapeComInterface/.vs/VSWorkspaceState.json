@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ShapeComInterface",
+    "\\ShapeComInterface\\Model",
+    "\\ShapeComInterface\\Model\\Entities",
+    "\\ShapeComInterface\\Model\\Enums"
+  ],
+  "SelectedNode": "\\ShapeComInterface\\Model\\Entities\\Shape.cs",
+  "PreviewInSolutionExplorer": false
+}
