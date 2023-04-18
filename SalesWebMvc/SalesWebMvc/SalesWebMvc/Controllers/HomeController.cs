@@ -20,6 +20,7 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult Privacy()
         {
+            ViewData["Autor"] = "Frank Alves";
             return View();
         }
 
