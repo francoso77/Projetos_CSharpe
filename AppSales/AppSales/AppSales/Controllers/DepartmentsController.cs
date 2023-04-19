@@ -12,8 +12,11 @@ namespace AppSales.Controllers
 {
     public class DepartmentsController : Controller
     {
+        
+        //instancia o contexto
         private readonly AppSalesContext _context;
 
+        //faz a injeção do contexto na classe
         public DepartmentsController(AppSalesContext context)
         {
             _context = context;

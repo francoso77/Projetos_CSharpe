@@ -10,6 +10,7 @@ namespace AppSales.Models
         public SaleStatus  Status { get; set; }
         public Seller Seller { get; set; }  
 
+        //o framework precisa do construtor criado
         public SalesRecord() { }
 
         //qdo nao te coleções criasse com argumentos para todos os campos

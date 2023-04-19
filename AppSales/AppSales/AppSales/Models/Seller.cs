@@ -33,7 +33,8 @@
         //Amount é o campo valor em SalesRecord
         public double TotalSales(DateTime initial, DateTime final)
         {
-            return Sales.Where(sales => sales.Date >= initial && sales.Date <= final)
+            return Sales
+                .Where(sales => sales.Date >= initial && sales.Date <= final)
                 .Sum(sales => sales.Amount);
         }
 
