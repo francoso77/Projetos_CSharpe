@@ -1,0 +1,47 @@
+﻿@{
+    /*
+     * criar uma model para pegar o objento enviado
+     * com a interface IEnumerable que é um tipo bem generico q aceita list hash sort
+     * no index foi criado um model com a interface, aqui não precisa, ja pode usar a classe direto
+     */
+    ;
+}
+@model AppSales.Models.Seller
+
+@{
+    ViewData["Title"] = "Create";
+}
+<h2>@ViewData["Title"]</h2>
+
+<h4>Seller</h4>
+<hr />
+@{/* A class row do bootstrap garantir q a Div ocupe a largura da tela */}
+<div class="row">
+    @{/*o col-md-4 dividi a tela em 4 partes 1/3 da tela md-6 metade da tela... o total de partes é 12 igual no react*/}
+    <div class="col-md-4">
+        @{/*Ação create será o metodo para enviar os dados POST*/}
+        <form asp-action="Create">
+            
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="BirthDate" class="control-label"></label>
+                <input asp-for="BirthDate" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="BaseSalary" class="control-label"></label>
+                <input asp-for="BaseSalary" class="form-control" />
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>

@@ -7,7 +7,7 @@ namespace AppSales.Data
     {
         void Seed();
     }*/
-    public class SeedingService: IServiceProvider
+    public class SeedingService
     {
         private AppSalesContext _context;
         //aqui agora fazemos a injeção de dependencia do contexto
@@ -15,14 +15,7 @@ namespace AppSales.Data
         {
             _context = context;
         }
-
-        public object? GetService(Type serviceType)
-        {
-            throw new NotImplementedException();
-        }
-
         //função para popular a base de dados
-
         public void Seed()
         {
             //primieiro testo se tem dados com o ANY

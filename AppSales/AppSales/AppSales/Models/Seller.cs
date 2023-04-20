@@ -7,7 +7,10 @@
         public string Email { get; set; }
         public DateTime BirthDate { get; set; }
         public double BaseSalary { get; set; }
-        public Department Department { get; set; }  
+        public Department Department { get; set; }
+        //este campo é para controle da chave estrangeiro no banco 
+        //e não deixar criar um dado com campo null
+        public int DepartmentId { get; set; }
         public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>();  
         
         public Seller() { }

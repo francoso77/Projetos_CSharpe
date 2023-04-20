@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using AppSales.Data;
+using AppSales.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 //builder.Services.AddDbContext<AppSalesContext>(options =>
 //    options.UseSqlServer(builder.Configuration.GetConnectionString("AppSalesContext") ?? throw new InvalidOperationException("Connection string 'AppSalesContext' not found.")));
@@ -17,25 +19,24 @@ builder.Services.AddControllersWithViews();
 
 
 // Add services para popular dados caso o banco esteja vázio
-builder.Services.AddScoped<IServiceProvider, SeedingService>();
+builder.Services.AddScoped<SeedingService>();
+builder.Services.AddScoped<SellerServices>();
 
 var app = builder.Build();
 
-SeedingService sr = app.Services.GetRequiredService<SeedingService>();
-
+//app.Services.GetService<SeedingService>();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
+    //sr.Seed();
     app.UseExceptionHandler("/Home/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
-    sr.Seed();
-}
-else
+  
+}else
 {
-    sr.Seed();
+   // sr.Seed();
 }
-
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
