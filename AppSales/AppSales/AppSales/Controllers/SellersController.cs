@@ -1,4 +1,5 @@
 ﻿using AppSales.Models;
+using AppSales.Models.ViewModels;
 using AppSales.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,10 +10,13 @@ namespace AppSales.Controllers
         //criando a dependencia do servico
 
         private readonly SellerServices _sellerServices;
-        //atribuindo injetando a dependencia no construtor i
-        public SellersController(SellerServices sellerServices)
+        //atribuindo injetando a dependencia no construtor
+
+        private readonly DepartmentService _departmentService;
+        public SellersController(SellerServices sellerServices, DepartmentService departmentService)
         {
             _sellerServices = sellerServices;
+            _departmentService = departmentService;
         }
         public IActionResult Index()
         {
@@ -23,7 +27,9 @@ namespace AppSales.Controllers
         }
         public IActionResult Create()
         {
-            return View();
+            var departments = _departmentService.FindAll();
+            var viewModel = new SellerFormViewModel { Departments = departments};
+            return View(viewModel);
         }
         //criando o metodo create que para inserir os dados no banco
         //indicar q a ação é de POST e não de GET

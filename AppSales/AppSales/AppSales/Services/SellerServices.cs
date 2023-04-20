@@ -25,7 +25,8 @@ namespace AppSales.Services
             //metodo para inserir os dados no banco de dados
             //forncando um departamento para o cadastro
 
-            seller.Department = _context.Department.First();
+            //seller.Department = _context.Department.First();
+            
             _context.Add(seller);
             _context.SaveChanges();
         }

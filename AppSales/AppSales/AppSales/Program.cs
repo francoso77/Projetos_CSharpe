@@ -21,6 +21,7 @@ builder.Services.AddControllersWithViews();
 // Add services para popular dados caso o banco esteja vázio
 builder.Services.AddScoped<SeedingService>();
 builder.Services.AddScoped<SellerServices>();
+builder.Services.AddScoped<DepartmentService>();
 
 var app = builder.Build();
 

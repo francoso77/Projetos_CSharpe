@@ -3,10 +3,12 @@
      * criar uma model para pegar o objento enviado
      * com a interface IEnumerable que é um tipo bem generico q aceita list hash sort
      * no index foi criado um model com a interface, aqui não precisa, ja pode usar a classe direto
+     * o model foi modificado novamente chamando a viewmodel onde antes tinhas os campos direto da viu... agora chama
+     * do campo da viewmodel seller.name
      */
     ;
 }
-@model AppSales.Models.Seller
+@model AppSales.Models.ViewModels.SellerFormViewModel
 
 @{
     ViewData["Title"] = "Create";
@@ -23,20 +25,25 @@
         <form asp-action="Create">
             
             <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
+                <label asp-for="Seller.Name" class="control-label"></label>
+                <input asp-for="Seller.Name" class="form-control" />
             </div>
             <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
+                <label asp-for="Seller.Email" class="control-label"></label>
+                <input asp-for="Seller.Email" class="form-control" />
             </div>
             <div class="form-group">
-                <label asp-for="BirthDate" class="control-label"></label>
-                <input asp-for="BirthDate" class="form-control" />
+                <label asp-for="Seller.BirthDate" class="control-label"></label>
+                <input asp-for="Seller.BirthDate" class="form-control" />
             </div>
             <div class="form-group">
-                <label asp-for="BaseSalary" class="control-label"></label>
-                <input asp-for="BaseSalary" class="form-control" />
+                <label asp-for="Seller.BaseSalary" class="control-label"></label>
+                <input asp-for="Seller.BaseSalary" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Seller.DepartmentId" class="control-label"></label>
+                <select asp-for="Seller.DepartmentId" asp-asp-items="@(new SelectList(Model.Departments, "Id",
+                "Name"))" class="form-control"></select>
             </div>
             <br />
             <div class="form-group">
