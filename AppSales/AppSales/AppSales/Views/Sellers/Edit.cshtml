@@ -1,43 +1,28 @@
 ﻿@{
     /*
-     * criar uma model para pegar o objento enviado
-     * com a interface IEnumerable que é um tipo bem generico q aceita list hash sort
-     * no index foi criado um model com a interface, aqui não precisa, ja pode usar a classe direto
-     * o model foi modificado novamente chamando a viewmodel onde antes tinhas os campos direto da viu... agora chama
-     * do campo da viewmodel seller.name
      */
     ;
 }
-@model AppSales.Models.ViewModels.SellerFormViewModel // na viewModel tem 2 campos - o campo sellers q tem todos os dados de selles e o campo departament q tem todos os dados de department
+@model AppSales.Models.ViewModels.SellerFormViewModel
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Edit";
 }
 <h2>@ViewData["Title"]</h2>
 
 <h4>Seller</h4>
-<hr /> @{
-            /*hr passa uma linha na tela*/
-}
+<hr /> @{/*hr passa uma linha na tela*/}
 
-@{
-    /* A class row do bootstrap garantir q a Div ocupe a largura da tela */
-}
+@{/* A class row do bootstrap garantir q a Div ocupe a largura da tela */}
 <div class="row">
-    @{
-        /*o col-md-4 dividi a tela em 4 partes 1/3 da tela md-6 metade da tela... o total de partes é 12 igual no react*/
-    }
+    @{/*o col-md-4 dividi a tela em 4 partes 1/3 da tela md-6 metade da tela... o total de partes é 12 igual no react*/}
     <div class="col-md-4">
-        @{
-            /*Ação create será o metodo para enviar os dados POST*/
-        }
-        <form asp-action="Create">
-
-            @{
-                /*Campo de validação para todos os campos - aparece como um lista*/
-            }
-            <div asp-validation-summary="All" class="text-danger"></div>
-
+        @{/*Ação edit será o metodo para enviar os dados POST*/}
+        <form asp-action="Edit">
+            
+            @{/*Criamos aqui um campo oculto passando o Id para o formulário*/}
+            <input type="hidden" asp-for="Seller.Id" />
+            
             <div class="form-group">
                 <label asp-for="Seller.Name" class="control-label"></label>
                 <input asp-for="Seller.Name" class="form-control" />
@@ -65,12 +50,12 @@
             </div>
             <br />
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-success" />
+                <input type="submit" value="Save" class="btn btn-success" />
+                <a asp-action="Index">Back to List</a>
             </div>
         </form>
     </div>
 </div>
-
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");

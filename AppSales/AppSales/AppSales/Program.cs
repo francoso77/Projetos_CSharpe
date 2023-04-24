@@ -2,6 +2,9 @@
 using Microsoft.Extensions.DependencyInjection;
 using AppSales.Data;
 using AppSales.Services;
+using System.Globalization;
+using Microsoft.AspNetCore.Localization;
+
 
 var builder = WebApplication.CreateBuilder(args);
 //builder.Services.AddDbContext<AppSalesContext>(options =>
@@ -16,15 +19,22 @@ builder.Services.AddDbContext<AppSalesContext>(options =>
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
-
-// Add services para popular dados caso o banco esteja vázio
-builder.Services.AddScoped<SeedingService>();
+builder.Services.AddScoped<SeedingService>(); //servico para pupular o banco de dados
 builder.Services.AddScoped<SellerServices>();
 builder.Services.AddScoped<DepartmentService>();
 
 var app = builder.Build();
 
+//definindo configurações de localização para valores e datas
+CultureInfo enUS = new CultureInfo("pt-BR");
+var localizationOptions = new RequestLocalizationOptions
+{
+    DefaultRequestCulture = new RequestCulture(enUS),
+    SupportedCultures = new List<CultureInfo> { enUS },
+    SupportedUICultures = new List<CultureInfo> { enUS }
+};
+
+app.UseRequestLocalization(localizationOptions);
 //app.Services.GetService<SeedingService>();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -48,6 +58,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Departments}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

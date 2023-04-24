@@ -1,4 +1,5 @@
-﻿namespace AppSales.Models.ViewModels
+﻿//o view model é um model composto para colocar mais dados na tela
+namespace AppSales.Models.ViewModels
 {
     public class SellerFormViewModel
     {
