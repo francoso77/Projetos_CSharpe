@@ -11,13 +11,6 @@ namespace AppSales.Services
         {
             _context = context;
         }
-        public List<Department> FindAll()
-        {
-            //usando o LINQ ordenamos os departamentos por nome - metodo sincrono
-            return _context.Department.OrderBy(list => list.Name).ToList();
-        
-        }
-        //fazendo pelo metodo assicrono
         public async Task<List<Department>> FindAllAsync()
         {
             //o await não bloqueia a operação 
