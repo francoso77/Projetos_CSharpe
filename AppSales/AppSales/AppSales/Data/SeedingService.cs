@@ -1,38 +1,27 @@
-﻿using AppSales.Models;
-using AppSales.Models.Enums;
+﻿using AppSales.Models.Enums;
+using AppSales.Models;
 
 namespace AppSales.Data
 {
-    /*public interface ISeedingService
-    {
-        void Seed();
-    }*/
     public class SeedingService
     {
         private AppSalesContext _context;
-        //aqui agora fazemos a injeção de dependencia do contexto
         public SeedingService(AppSalesContext context)
         {
             _context = context;
         }
-        //função para popular a base de dados
         public void Seed()
         {
-            //primieiro testo se tem dados com o ANY
-            if (_context == null ||
-                _context.Department.Any() ||
-                _context.Seller.Any() ||
-                _context.SalesRecord.Any())
+            if( _context.Department.Any() || _context.Seller.Any() || _context.SalesRecord.Any())
             {
-                return; //banco já foi populado
+                return; //bd já populado
             }
-
             Department d1 = new Department(1, "Computers");
             Department d2 = new Department(2, "Electronics");
             Department d3 = new Department(3, "Fashion");
             Department d4 = new Department { Id = 4, Name = "Books" };
 
-            Seller s1 = new Seller(1, "Bob Brow", "bob@gmail.com", new DateTime(1998, 4, 21), 1000.0, d1  );
+            Seller s1 = new Seller(1, "Bob Brow", "bob@gmail.com", new DateTime(1998, 4, 21), 1000.0, d1);
             Seller s2 = new Seller(2, "Maria Green", "maria@gmail.com", new DateTime(1979, 12, 31), 3500.0, d2);
             Seller s3 = new Seller(3, "Alex Grey", "alex@gmail.com", new DateTime(1988, 1, 15), 2200.0, d1);
             Seller s4 = new Seller(4, "Martha Red", "martha@gmail.com", new DateTime(1993, 11, 30), 3000.0, d4);
@@ -84,6 +73,5 @@ namespace AppSales.Data
 
             _context.SaveChanges();
         }
-
     }
 }

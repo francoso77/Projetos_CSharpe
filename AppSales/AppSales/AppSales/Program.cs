@@ -1,10 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 using AppSales.Data;
-using AppSales.Services;
 using System.Globalization;
 using Microsoft.AspNetCore.Localization;
-
+using AppSales.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 //builder.Services.AddDbContext<AppSalesContext>(options =>
@@ -19,8 +17,10 @@ builder.Services.AddDbContext<AppSalesContext>(options =>
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<SeedingService>(); //servico para pupular o banco de dados
-builder.Services.AddScoped<SellerServices>();
+
+//registrando serviços
+builder.Services.AddScoped<SeedingService>();
+builder.Services.AddScoped<SellerService>();
 builder.Services.AddScoped<DepartmentService>();
 
 var app = builder.Build();
@@ -39,14 +39,10 @@ app.UseRequestLocalization(localizationOptions);
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-    //sr.Seed();
     app.UseExceptionHandler("/Home/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
   
-}else
-{
-   // sr.Seed();
 }
 
 app.UseHttpsRedirection();

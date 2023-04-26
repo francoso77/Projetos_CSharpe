@@ -13,18 +13,18 @@
 
 <div>
     <h4>Seller</h4>
-    <hr /> 
-    
-    <dl class="row">  
-        <dt class="col-sm-3 text-end">@Html.DisplayNameFor(model => model.Name)</dt> 
+    <hr />
+
+    <dl class="row">
+        <dt class="col-sm-3 text-end">@Html.DisplayNameFor(model => model.Name)</dt>
         <dd class="col-sm-9">@Html.DisplayFor(model => model.Name)</dd>
-        
+
         <dt class="col-sm-3 text-end">@Html.DisplayNameFor(model => model.Email)</dt>
         <dd class="col-sm-9">@Html.DisplayFor(model => model.Email)</dd>
-        
+
         <dt class="col-sm-3 text-end">@Html.DisplayNameFor(model => model.BirthDate)</dt>
         <dd class="col-sm-9">@Html.DisplayFor(model => model.BirthDate)</dd>
-        
+
         <dt class="col-sm-3 text-end">@Html.DisplayNameFor(model => model.BaseSalary)</dt>
         <dd class="col-sm-9">@Html.DisplayFor(model => model.BaseSalary)</dd>
 
@@ -38,4 +38,3 @@
     <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-success">Edit</a>
     <a asp-action="Index">Back to List</a>
 </div>
-

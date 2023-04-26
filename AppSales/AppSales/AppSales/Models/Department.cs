@@ -6,16 +6,13 @@
         public string Name { get; set; }
         //usamos aqui um tipo generico de list / hash - e difinimos qual usar na instanciação
         public ICollection<Seller> Sellers { get; set; } = new List<Seller>();
-
         public Department() { }
-
         //cria constructor com argumentos SEM as coleções
         public Department(int id, string name)
         {
             Id = id;
             Name = name;
         }
-
         public void AddSeller(Seller seller)
         {
             Sellers.Add(seller);

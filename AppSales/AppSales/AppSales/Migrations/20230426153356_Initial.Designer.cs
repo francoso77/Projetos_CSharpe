@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AppSales.Migrations
 {
     [DbContext(typeof(AppSalesContext))]
-    [Migration("20230420185826_DepartmentForeignkey")]
-    partial class DepartmentForeignkey
+    [Migration("20230426153356_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
