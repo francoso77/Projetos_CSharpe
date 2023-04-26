@@ -14,28 +14,37 @@ namespace AppSales.Services
             _context = context; 
         }
 
-        public List<Seller> FindAll()
+        public async Task<List<Seller>> FindAllAsync()
         {
-            return _context.Seller.ToList();
+            return await _context.Seller.ToListAsync();
         }
 
-        public void Insert(Seller seller)
+        public async Task InsertAsync(Seller seller)
         {
             _context.Add(seller); 
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
         //.Include() é para mostrar o item relacionado com outra tablea
-        public Seller FindById(int id) => _context.Seller.Include(obj => obj.Department).FirstOrDefault(obj => obj.Id == id);
+        public async Task<Seller> FindByIdAsync(int id) => 
+            await _context.Seller.Include(obj => obj.Department).FirstOrDefaultAsync(obj => obj.Id == id);
 
-        public void Remove(int id)
+        public async Task RemoveAsync(int id)
         {
-            var obj = _context.Seller.Find(id);
-            _context.Seller.Remove(obj);
-            _context.SaveChanges();
+            try
+            {
+                var obj = await _context.Seller.FindAsync(id);
+                _context.Seller.Remove(obj);
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException e)
+            {
+                throw new IntegrityException("Existem dados relacionados com este item");
+            }
         }
-        public void Update(Seller seller)
+        public async Task UpdateAsync(Seller seller)
         {
-            bool hasAny = _context.Seller.Any(x => x.Id == seller.Id);
+            //teste se no bd tem alguem com o mesmo id
+            bool hasAny = await _context.Seller.AnyAsync(x => x.Id == seller.Id);
 
             if (!hasAny)
             {
@@ -44,7 +53,7 @@ namespace AppSales.Services
             try
             {
                 _context.Update(seller);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
             }
             catch (DbUpdateConcurrencyException e)
             {

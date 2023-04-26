@@ -1,5 +1,6 @@
 ﻿using AppSales.Data;
 using AppSales.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace AppSales.Services
 {
@@ -11,10 +12,10 @@ namespace AppSales.Services
         {
             _context = context; 
         }
-
-        public List<Department> FindAll()
+        //transformado de sincrona para assincrona
+        public async Task<List<Department>> FindAllAsync()
         {
-            return _context.Department.OrderBy(dep => dep.Name).ToList();
+            return await _context.Department.OrderBy(dep => dep.Name).ToListAsync();
         }
     }
 }
