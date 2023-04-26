@@ -1,11 +1,16 @@
-﻿namespace AppSales.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace AppSales.Models
 {
     public class Seller
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
+        [Display(Name = "Bith Date"), DataType(DataType.Date), DisplayFormat(DataFormatString ="{0:dd/MM/yyyy}")]
         public DateTime BirthDate { get; set; }
+        [Display(Name = "Base Salary"), DisplayFormat(DataFormatString = "{0:N}")]
         public double BaseSalary { get; set; }
         public Department Department { get; set; }
         //para corrigir o problema de entidade referecial do bd
