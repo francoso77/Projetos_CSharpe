@@ -4,7 +4,6 @@ using AppSales.Services;
 using AppSales.Services.Exceptions;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace AppSales.Controllers
 {
@@ -24,14 +23,14 @@ namespace AppSales.Controllers
             return View(list);
         }
 
-        //GET
+        //GET Create
         public async Task<IActionResult> Create()
         {
             var departments = await _departmentService.FindAllAsync();
             var viewModel = new SellerFormViewModel { Departments = departments };
             return View(viewModel);
         }
-        //POST
+        //POST Create
         [HttpPost, ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Seller seller)
         {
@@ -44,7 +43,7 @@ namespace AppSales.Controllers
             await _sellerService.InsertAsync(seller);
             return RedirectToAction(nameof(Index));
         }
-        //GET
+        //GET Delete
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -58,7 +57,7 @@ namespace AppSales.Controllers
             }
             return View(obj);
         }
-        //POST
+        //POST Delete
         [HttpPost, ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
         {
@@ -72,7 +71,7 @@ namespace AppSales.Controllers
                 return RedirectToAction(nameof(Error), new { message = e.Message });
             }
         }
-        //GET
+        //GET Details
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -86,7 +85,7 @@ namespace AppSales.Controllers
             }
             return View(obj);
         }
-        //GET
+        //GET Edit
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -103,7 +102,7 @@ namespace AppSales.Controllers
             SellerFormViewModel viewModel = new SellerFormViewModel { Seller = obj, Departments = departments };
             return View(viewModel);
         }
-        //POST
+        //POST Edit
         [HttpPost, ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, Seller seller)
         {
@@ -127,7 +126,7 @@ namespace AppSales.Controllers
                 return RedirectToAction(nameof(Error), new { message = e.Message });
             }
         }
-
+        //GET Error
         public IActionResult Error(string message)
         {
             var viewModel = new ErrorViewModel

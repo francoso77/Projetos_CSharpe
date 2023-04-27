@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AppSales.Migrations
 {
     [DbContext(typeof(AppSalesContext))]
-    [Migration("20230426153356_Initial")]
+    [Migration("20230427143032_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -83,7 +83,8 @@ namespace AppSales.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasMaxLength(60)
+                        .HasColumnType("varchar(60)");
 
                     b.HasKey("Id");
 

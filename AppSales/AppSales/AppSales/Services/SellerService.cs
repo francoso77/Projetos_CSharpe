@@ -36,9 +36,9 @@ namespace AppSales.Services
                 _context.Seller.Remove(obj);
                 await _context.SaveChangesAsync();
             }
-            catch (DbUpdateException e)
+            catch (DbUpdateException)
             {
-                throw new IntegrityException("Existem dados relacionados com este item");
+                throw new IntegrityException("Existem dados relacionados com este item, não pode ser removido");
             }
         }
         public async Task UpdateAsync(Seller seller)
